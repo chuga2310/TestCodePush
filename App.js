@@ -45,7 +45,7 @@ class MyApp extends React.Component {
     return (
       <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
         <TouchableOpacity onPress={this.onButtonPress}>
-          <Text>new version</Text>
+          <Text>new version 2</Text>
           
         </TouchableOpacity>
       </View>

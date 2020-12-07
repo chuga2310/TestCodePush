@@ -7,13 +7,7 @@ target 'TestCodepush' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
-
-  pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
-  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
-  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
-  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
-  pod 'CodePush', :path => '../node_modules/react-native-code-push'
-
+  
   target 'TestCodepushTests' do
     inherit! :complete
     # Pods for testing
